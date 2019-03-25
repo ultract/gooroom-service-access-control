@@ -30,6 +30,7 @@ Access Control for Gooroom System Services, e.g. network, printer, etc configura
     $ sudo ./grm-sac-tool.sh -s1 -t0
 
 Print All Service as a List : 
+
     $ ./grm-sac-tool.sh -l
     [ Gooroom Local Service List ]
      0 : Execute Any File as Another User Permission by pkexec
@@ -55,6 +56,7 @@ Print All Service as a List :
     No Authentication Type!!
 
 Check Authentication Types of All Services : 
+
     $ sudo ./grm-sac-tool.sh -c
      0: Execute Any File as Another User Permission by pkexec -> 
      1: Gooroom Agent - Gooroom User Deivce Register -> 
